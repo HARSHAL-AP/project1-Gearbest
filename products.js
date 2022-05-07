@@ -141,6 +141,8 @@ mensData.forEach(function(elem){
   var productprice=document.createElement("h2")
   productprice.innerText=elem.price
 
-  box.append(propductmg,productname, productprice)
+  var discount=document.createElement("button")
+  discount.innerText=elem.offprice
+  box.append(propductmg,productname, productprice,discount)
   document.querySelector("#productarea").append(box);
 })
