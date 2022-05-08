@@ -64,6 +64,14 @@ form > :nth-child(4){
     cursor: pointer;
 }
 
+p{
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    /* font: 100px; */
+    color: red;
+    
+}
 
 
 
