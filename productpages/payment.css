@@ -1,0 +1,179 @@
+#head{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    /* border: 1px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+#hbox1{
+    width: 100%;
+    height: 110px;
+    /* border: 1px solid pink; */
+    display: flex;
+}
+#logo{
+    width: 25%;
+    height: 110px;
+    /* border: 1px solid green; */
+}
+#logo>img{
+    width: 65%;
+    padding: 10px;
+    margin-left: 10px;
+    padding-top: 25px;
+}
+#logo>img:hover{
+    cursor: pointer;
+} 
+#upper{
+    border: 1px solid rgb(204, 204, 204);
+    color: black;
+    background-color:#f9f9f9;
+    padding-left: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    /* border: 1px solid red; */
+}
+
+#payment{
+   width: 100%;
+   height: 600px;
+   /* border: 1px solid red; */
+   display: flex;
+}
+#payment > div:nth-child(1){
+    /* border: 1px solid; */
+    width: 50%;
+    height: 590px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.debitlogo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.debitlogo>div{
+    width: 60px;
+    height: auto;
+    margin-left: -30px;
+    margin-top: 20px;
+    margin-bottom: -15px;
+    /* border: 1px solid black; */
+}
+.debitlogo>div>img{
+    width: 80%;
+}
+
+.card{
+    padding-left: 30px;
+    /* box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset; */
+    border: 1px solid;
+    
+}
+.paypal{
+    width: 90px;
+    height: auto;
+    margin-left: -10px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+.card>div>img{
+    width: 100%;
+
+}
+
+.card:hover{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    /* height: 40px; */
+}
+
+#carddata{
+    /* border: 1px solid; */
+    height: 590px;
+    width: 60%;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+#bankoffer{
+    width: auto;
+    height: 200px;
+    /* border: 1px solid; */
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    color: #01baf2;
+    padding-left: 30px;
+}
+
+#bankoffer > p{
+    color: gray;  
+    
+}
+
+#bankoffer > h3{
+    padding-bottom: -20px;
+}
+
+#bankoffer > div{
+    border: 1px solid;
+    width: 250px;
+    height: 120px;
+    display: flex;
+}
+
+#discount > div{
+    /* border: 1px solid; */
+    width: 100%;
+    height: 100%;
+    background-color: #ffda00;
+    color: black;
+}
+
+#discount img{
+    width: 70px;
+}
+
+#discount > div:nth-child(1){
+    width: 40%;
+}
+
+#text{
+    /* border: 1px solid; */
+    height: 40px;
+    margin-top: 10px;
+}
+
+#text > h3{
+    padding-left: 30px;
+
+}
+
+form{
+text-align: center;
+border: 1px solid black;
+width: 400px;
+margin:auto;
+height:200px;
+border-color:rgb(204, 204, 204);
+border-radius: 5px;
+margin-bottom: 10px;
+margin-left: 10px;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+
+}
+
+form{
+  padding-top: 40px;
+  
+}
+input{
+  margin-top: 15px;
+}
+#input11{
+    width: 100px;
+    height: 35px;
+    border: none;
+    font-weight: bolder;
+    background-color: #ffda00;
+}
