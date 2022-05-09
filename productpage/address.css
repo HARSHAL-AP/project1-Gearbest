@@ -1,0 +1,449 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #navbar {
+    height: 100px;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: #ffff;
+  }
+  #headr {
+    margin: auto;
+    height: 100px;
+    width: 80%;
+    display: flex;
+  }
+  #logo {
+    height: 100px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #logo > img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+  }
+  #headr > p {
+    position: relative;
+    left: 65%;
+    top: 25px;
+    font-size: 14px;
+  }
+  #orderinfoline {
+    height: 200px;
+    width: 80%;
+    margin: auto;
+  
+    display: flex;
+  }
+  #orderinfoline > div {
+    height: 100px;
+    width: 25%;
+  
+    border-bottom: 4px solid;
+    border-color: cadetblue;
+  }
+  #orderinfoline > div > i {
+    color: cadetblue;
+    position: relative;
+    top: 44px;
+  }
+  #orderinfoline > div > p {
+    color: rgb(75, 75, 75);
+    position: relative;
+    top: 55px;
+    left: -15px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  #orderbook {
+    height: 50px;
+    width: 80%;
+    background-color: #ffff;
+    margin: auto;
+    display: flex;
+  }
+  #prod {
+    height: 50px;
+    width: 45%;
+  }
+  #prod > p {
+    margin-left: 14px;
+    font-size: 14px;
+    color: #999999;
+  }
+  #prodinfo {
+    height: 50px;
+    width: 55%;
+  
+    display: flex;
+  }
+  .carttitle {
+    height: 50px;
+    width: 25%;
+  }
+  .carttitle > p {
+    text-align: center;
+    font-size: 14px;
+    color: #999999;
+  }
+  #advertsection {
+    margin: auto;
+    height: 300px;
+    width: 80%;
+  }
+  #advertsection > h2 {
+    margin: auto;
+    width: 300px;
+    font-size: 100px;
+    text-align: center;
+    color: #999999;
+  
+    border-bottom: 4px solid;
+    border-color: #999999;
+  }
+  #advertsection > h2 > i {
+    font-size: 100px;
+    text-align: center;
+    color: #999999;
+    margin-top: 50px;
+  }
+  #advertsection > p {
+    text-align: center;
+    color: #999999;
+  }
+  #button {
+    margin: auto;
+    height: 40px;
+    width: 200px;
+    background-color: #ffda00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #button > a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  #alsolikeit {
+    height: 250px;
+    width: 80%;
+    background-color: #fff;
+    margin: auto;
+  }
+  #bodybottom {
+    height: 100px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #fff;
+  }
+  #bodybottom > p {
+    text-align: center;
+    font-size: 15px;
+    color: #000000;
+  }
+  #bodybottom > a {
+    text-align: center;
+    font-size: 15px;
+    color: #363434;
+    margin-left: 15px;
+  }
+  #footer {
+    margin: auto;
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+    background-color: #e1e1e1;
+    padding-top: 50px;
+  }
+  
+  #qwalitycheq {
+    margin: auto;
+    display: flex;
+    width: 80%;
+    height: 150px;
+    background-color: #ffffff;
+  }
+  #logomm {
+    height: 100%;
+    width: 33%;
+  }
+  #logomm > div:nth-child(1) {
+    height: 50%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #logomm > div:nth-child(2) {
+    height: 50%;
+    width: 100%;
+    text-align: center;
+  }
+  #tittl {
+    margin: auto;
+    width: 50.5%;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  #otheqa {
+    height: 100%;
+    width: 70%;
+  
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 100%);
+    gap: 20px;
+  }
+  #otheqa > div > div {
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 35px;
+  }
+  #otheqa > div > h3 {
+    margin-top: -10px;
+    font-size: 14px;
+    text-align: center;
+  }
+  #otheqa > div > h3 + p {
+    font-size: 12px;
+    text-align: center;
+    margin-top: -10px;
+  }
+  #newstelericon {
+    margin: auto;
+    margin-top: 50px;
+    height: 60px;
+    width: 80%;
+    display: flex;
+  }
+  #newslater {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #newslater > p {
+    text-align: center;
+    color: #3a3838;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  #newslater > input {
+    height: 60%;
+    width: 50%;
+  }
+  #newslater > input + button {
+    height: 70%;
+    width: 120px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #000000;
+  }
+  #webicons {
+    height: 100%;
+    width: 50%;
+    display: flex;
+  
+    align-items: center;
+    justify-content: flex-end;
+  }
+  #webicons > a {
+    height: 50%;
+    width: 30px;
+    background-color: #000000;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #siteinfo {
+    margin: auto;
+    margin-top: 50px;
+    width: 80%;
+    height: 400px;
+  
+    display: flex;
+  }
+  #siteinfo > div {
+    height: 100%;
+    width: 25%;
+  }
+  #siteinfo > div > p {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  #siteinfo > div > li {
+    list-style-type: none;
+    font-size: 16px;
+    margin-top: 3px;
+    color: #6c6969;
+  }
+  #appdawnlodarea {
+    height: 150px;
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    background-color: #f30240;
+  }
+  #barcode {
+    padding: 5px;
+    height: 100%;
+    width: 50%;
+    background-color: #e1e1e1;
+  }
+  #barcode > img {
+    height: 90%;
+    width: 90%;
+  }
+  #appss {
+    height: 100%;
+    width: 50%;
+    background-color: #e1e1e1;
+  }
+  #apple {
+    height: 40%;
+    width: 100%;
+    background-color: #000000;
+    margin-top: 10px;
+    display: flex;
+    border-radius: 10px;
+  }
+  #android {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    background-color: #000000;
+    border-radius: 10px;
+  }
+  #apleicone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    background-color: #000000;
+    border-radius: 10px;
+  }
+  #appledata {
+    width: 70%;
+    height: 100%;
+    color: #ffffff;
+  }
+  #appledata > p {
+    font-size: 9px;
+  }
+  #appledata > h4 {
+    margin-top: -5px;
+  }
+  #andicone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    background-color: #000000;
+    border-radius: 10px;
+  }
+  #andedata {
+    width: 70%;
+    height: 100%;
+    color: #ffffff;
+  }
+  #andedata > p {
+    font-size: 9px;
+  }
+  #andedata > h4 {
+    margin-top: -5px;
+  }
+  #partners {
+    height: 100px;
+    width: 80%;
+    margin: auto;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #partners > div {
+    height: auto;
+    width: auto;
+    margin-left: 20px;
+  }
+  #pageend {
+    margin: 0%;
+    padding: 0%;
+    height: 30px;
+    width: 100%;
+    background-color: #000000;
+    margin-bottom: 0px;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #addresform {
+    margin: auto;
+    height: auto;
+    width: 80%;
+  }
+  #heading {
+    font-size: 25px;
+  }
+  #form {
+    padding: 15px;
+    height: 100%;
+    width: 50%;
+    margin-left: 100px;
+  }
+  #name,
+  #Surname,
+  #adress1,
+  #adress2,
+  #contry,
+  #state,
+  #City,
+  #taxid,
+  #zipcode,
+  #mobailno,
+  #email {
+    margin-top: 15px;
+    height: 40px;
+    width: 70%;
+    border: 1px solid;
+    border-color: #999999;
+    border-radius: 5px;
+  }
+  #submit {
+    margin-top: 20px;
+    height: 40px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 0px;
+    background-color: #ffda00;
+    color: #000000;
+  }
+  
