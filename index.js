@@ -30,11 +30,11 @@ var x = setInterval(function() {
 
 
 
-const user= document.querySelector("#acsection");
+const user= document.querySelector("#sign");
 const signinData=JSON.parse(localStorage.getItem("signin"));
 if(signinData != null){
      user.innerHTML=`<h2>  ${signinData.username.toUpperCase()} </h2>
-    <h2> <a href="./cart.html"> Cart </a></h2>`;
+    <h2>  </h2>`;
  }
 
 

@@ -17,7 +17,7 @@ form.addEventListener("submit",function(event){
      alert("Sign In Successful");
      localStorage.setItem("signin",JSON.stringify
      (userData));
-     window.location.href = ""
+     window.location.href ="/index.html" 
     }else{
         alert("user Does Not Exists")
     }
